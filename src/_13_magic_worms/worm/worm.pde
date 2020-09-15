@@ -14,7 +14,7 @@ void draw(){
     float noiseInterval = PI;
 
     void makeMagical() {
-        fill( frameCount, mouseX, 0, 10 );
+        fill( 0, 0, 0, 10 );
         rect(0, 0, width, height);
         noStroke();
     }
